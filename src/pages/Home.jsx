@@ -9,7 +9,15 @@ import { headContainerAnimation, headContentAnimation, headTextAnimation, slideA
 const Home = () => {
     const snap = useSnapshot(state)
   return (
-    <div>Home</div>
+    <AnimatePresence>
+        {snap.intro && (
+            <motion.section className="home" {...slideAnimation('left')}>
+                <motion.header>
+                    
+                </motion.header>
+            </motion.section>
+        )}
+    </AnimatePresence>
   )
 }
 
