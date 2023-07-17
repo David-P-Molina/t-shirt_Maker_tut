@@ -18,6 +18,11 @@ const Home = () => {
                         alt='logo' 
                         className="w-8 h-8 object-contain"/>
                 </motion.header>
+                <motion.div className = "home-content" {...headContainerAnimation}>
+                    <h1 className="head-test">
+
+                    </h1>
+                </motion.div>
             </motion.section>
         )}
     </AnimatePresence>
