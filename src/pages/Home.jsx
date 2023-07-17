@@ -20,8 +20,13 @@ const Home = () => {
                 </motion.header>
                 <motion.div className = "home-content" {...headContainerAnimation}>
                     <h1 className="head-test">
-
+                        Let's <br className="xl:block hidden"/> Do It!
                     </h1>
+                </motion.div>
+                <motion.div>
+                    <p>
+                        Create your unique and exclusive shirt with our brand new 3d Customization tool.
+                    </p>
                 </motion.div>
             </motion.section>
         )}
