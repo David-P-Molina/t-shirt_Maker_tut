@@ -28,6 +28,7 @@ const Home = () => {
                         Create your unique and exclusive shirt with our brand new 3d Customization tool.
                         <strong>Unleash your imagination</strong> {" "} and define your own style.
                     </p>
+                    <CustomButton />
                 </motion.div>
             </motion.section>
         )}
